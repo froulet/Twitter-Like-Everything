@@ -4,7 +4,7 @@ function f() {
     i=i+2;
     inputs[i].click();
     if( i < howManyTimes ){
-        setTimeout( f, 3000);
+        setTimeout( f, 2000);
     }
 }
 f();
